@@ -1,5 +1,6 @@
 import React from "react";
 import AutocompleteAddress from "./AutocompleteAddress";
+import Cars from "./Cars";
 
 function Booking() {
   const screenHeight = window.innerHeight * 0.72;
@@ -11,6 +12,7 @@ function Booking() {
         style={{ height: screenHeight }}
       >
         <AutocompleteAddress />
+        <Cars />
       </div>
     </div>
   );
